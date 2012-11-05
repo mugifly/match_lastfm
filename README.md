@@ -11,7 +11,11 @@ thanks :)
 
 https://github.com/theblacksmith/dQuery
 
-### JsonObject
+### JsonObject (JsonObject.dart)
+
+(C) 2012 Chris Buckett (chrisbuckett@gmail.com)
+
+MIT License - LICENSE_JsonObject.txt
 
 https://github.com/chrisbu/dartwatch-JsonObject
 

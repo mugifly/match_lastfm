@@ -1,5 +1,7 @@
 name:  match_lastfm
-description:  A sample application
-
-#dependencies:
-#  unittest: { sdk: unittest }
+version: 1.0.0
+description: match_lastfm  
+author: Masanori Ohgita <mugifly@ohgita.info>
+homepage: https://github.com/mugifly/match_lastfm
+dependencies:
+  JsonObject: '>=1.0.0'
