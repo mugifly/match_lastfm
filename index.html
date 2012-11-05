@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>much & matchFM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/match_lastfm.css">
+    <style type="text/css">
+      body { padding-top: 60px;padding-bottom: 40px; }
+    </style>
+    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+	    <div class="navbar-inner">
+		    <div class="container">
+			    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			          </a>
+			    </a>
+			    <a class="brand" href="#">much & matchFM</a>
+			    <div class="nav-collapse collapse">
+				    <ul class="nav">
+				      <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+				    </ul>
+			    </div>
+			</div>
+  </div>
+  </div>
+    <div class="container">
+      <div class="hero-unit">
+        <h2>楽曲情報の検索</h2>
+        <p>最も<a href="http://www.lastfm.jp/help/faq?category=Scrobble">Scrobble</a>されている楽曲タグ情報を検索できます。</p>
+        <p>アーティスト名 / Artist: <input type="text" id="artistField"></p>
+        <p>曲名 / Track title: <input type="text" id="albumField"></p>
+        <input type="button" id="searchBtn" value="Search!">
+      </div>
+    </div>  
+<div align="right" style="margin-right: 50px;">match & muchFM by <a href="https://github.com/mugifly/match_lastfm">match_lastfm Project</a>, 
+    <a href="http://ohgita.info/">Masanori</a> (<a href="https://plus.google.com/100193705060363203281/">g+</a>).<br> Powered by <a href="http://www.dartlang.org/">Dart</a>.</div>
+    <script type="application/dart" src="web/match_lastfm.dart"></script>
+    <script src="https://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+  </body>
+</html>

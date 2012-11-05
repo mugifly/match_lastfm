@@ -1,0 +1,5 @@
+name:  match_lastfm
+description:  A sample application
+
+#dependencies:
+#  unittest: { sdk: unittest }
