@@ -7,9 +7,29 @@ based on [Dart](http://www.dartlang.org/).
 
 thanks :)
 
+### web_components
+
+Dart Team <misc@dartlang.org>
+
+https://github.com/dart-lang/dart-web-components
+
+Copyright (c) 2012, the Dart project authors.  Please see the AUTHORS file 
+for details. All rights reserved. Use of this source code is governed by a
+BSD-style license that can be found in the LICENSE file.
+
+AUTHORS: https://raw.github.com/dart-lang/dart-web-components/master/AUTHORS
+
+LICENSE: https://raw.github.com/dart-lang/dart-web-components/master/LICENSE
+
 ### dQuery
 
 https://github.com/theblacksmith/dQuery
+
+### options_file
+
+James Ots <code@jamesots.com>
+
+https://github.com/jamesots/optionsfile
 
 ### JsonObject (JsonObject.dart)
 

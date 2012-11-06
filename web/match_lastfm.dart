@@ -2,7 +2,7 @@ library match_lastfm;
 
 import 'dart:html';
 import 'dart:json';
-import 'Lastfm.dart';
+import '../dart_libs/Lastfm.dart';
 
 void main() {
   query("#searchBtn").on.click.add(search);
@@ -14,7 +14,7 @@ void search(Event event) {
 }
 
 void getAlbum(){
-  Lastfm lfm = new Lastfm('6d4553c20fc0681bca3498bcc1b073dc');
+  Lastfm lfm = new Lastfm('');
   print("getInfo...");
   lfm.track().getInfo("スキマスイッチ", "ゴールデンタイムラバー", 
   function(Map data){
