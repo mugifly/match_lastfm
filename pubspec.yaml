@@ -1,7 +1,7 @@
 name:  match_lastfm
 version: 1.0.0
 description: match_lastfm  
-author: Masanori Ohgita <mugifly@ohgita.info>
+author: Masanori Ohgita <mp@ohgita.info>
 homepage: https://github.com/mugifly/match_lastfm
 dependencies:
   options_file: 0.9.2
